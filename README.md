@@ -22,6 +22,8 @@ At the total district level, the headline results were not affected by the remov
 ### How does replacing the ninth-grade scores affect the following?
 #### Math and reading scores by grade
 ##### Math
+<img src="https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary.png" width="425"/> <img src="https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary_THS_9th_omitted.png" width="425"/> 
+
 :-------------------------:|:-------------------------:![Math_summary](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary.png) | ![Math_summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary_THS_9th_omitted.png)
 ##### Reading
 ![Reading_summary](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Reading_summary.png) ![Reading_summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Reading_summary_THS_9th_omitted.png)
