@@ -11,8 +11,12 @@ Working alongside the chief Data Scientist from a local school district, I have 
 In addition, the school board has notified us that the student data file shows evidence of academic dishonesty; specifically, the reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to us for help. In order to ensure academic rigour, I will replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. I also will then repeat the school district analysis and describe how these changes have affected the overall analysis.
 ## Results
 ### District summary
-:-------------------------:|:-------------------------:
-![District_Summary_Original](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/District_Summary_Original.png)  |  ![District_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/District_Summary_THS_9th_omitted.png)
+At the total district level, the headline results were not affected by the removal of the Thomas High School (THS) 9th grade results. As you can see from the data tables below, the overall average results from the 15 schools in the district are identical.
+
+District summary (original)
+![District_Summary_Original](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/District_Summary_Original.png)
+District summary (with THS 9th math and reading grades omitted)
+![District_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/District_Summary_THS_9th_omitted.png)
 ### How is the school summary affected?
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 ### How does replacing the ninth-grade scores affect the following?
