@@ -22,9 +22,9 @@ At the total district level, the headline results were not affected by the remov
 ### How does replacing the ninth-grade scores affect the following?
 #### Math and reading scores by grade
 ##### Math
-![Math_Summary_Original](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary.png) ![Math_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary_THS_9th_omitted.png)
+:-------------------------:|:-------------------------:![Math_summary](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary.png) | ![Math_summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary_THS_9th_omitted.png)
 ##### Reading
-![Reading_Summary_Original](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Reading_summary.png) ![Reading_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Reading_summary_THS_9th_omitted.png)
+![Reading_summary](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Reading_summary.png) ![Reading_summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Reading_summary_THS_9th_omitted.png)
 #### Scores by school spending
 ![Spending_Summary](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Spending_summary.png)
 #### School spending summary (with THS 9th math and reading grades omitted)
