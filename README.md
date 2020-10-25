@@ -13,16 +13,26 @@ In addition, the school board has notified us that the student data file shows e
 ### District summary
 At the total district level, the headline results were not affected by the removal of the Thomas High School (THS) 9th grade results. As you can see from the data tables below, the overall average results from the 15 schools in the district are identical.
 
-District summary (original)
+#### District summary (original)
 ![District_Summary_Original](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/District_Summary_Original.png)
-District summary (with THS 9th math and reading grades omitted)
+#### District summary (with THS 9th math and reading grades omitted)
 ![District_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/District_Summary_THS_9th_omitted.png)
 ### How is the school summary affected?
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 ### How does replacing the ninth-grade scores affect the following?
 #### Math and reading scores by grade
+##### Math
+![Math_Summary_Original](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary.png) ![Math_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Math_summary_THS_9th_omitted.png)
+##### Reading
+![Reading_Summary_Original](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Reading_summary.png) ![Reading_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Reading_summary_THS_9th_omitted.png)
 #### Scores by school spending
+![Spending_Summary](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Spending_summary.png)
+#### School spending summary (with THS 9th math and reading grades omitted)
+![Spending_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Spending_summary_THS_9th_omitted.png)
 #### Scores by school size
+![Size_Summary](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Size_summary.png)
+#### School size summary (with THS 9th math and reading grades omitted)
+![Size_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Size_summary_THS_9th_omitted.png)
 #### Scores by school type
 ## Summary
 There were a number of changes that were made to the overall analysis after removal of the reading and math scores for the ninth grade at Thomas High School. I have highlighted the changes below.
