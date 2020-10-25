@@ -12,7 +12,7 @@ In addition, the school board has notified us that the student data file shows e
 ## Results
 ### District summary
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+![District_Summary_Original](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/District_Summary_Original.png)  |  ![District_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/District_Summary_THS_9th_omitted.png)
 ### How is the school summary affected?
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 ### How does replacing the ninth-grade scores affect the following?
