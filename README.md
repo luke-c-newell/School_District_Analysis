@@ -35,10 +35,12 @@ At the total district level, the headline results were not affected by the remov
 ![District_Summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/District_Summary_THS_9th_omitted.png)
 ### School Summary
 For the school summary, THS saw a decrease in the % overall passing score but remained as the #2 school in the district
-#### School summary (original)
+#### Top schools summary (original)
 ![School_summary](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/School_summary.png)
-#### School summary (with THS 9th math and reading grades omitted)
+#### Top schools summary (with THS 9th math and reading grades omitted)
 ![School_summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/School_summary_THS_9th_omitted.png)
+#### Bottom schools summary
+![Bottom_schools](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Bottom_schools.png)
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 THS saw a reduction in the average math score and an increase in the average reading score, when removing the 9th grade results
 #### Math and reading scores by grade
@@ -64,7 +66,7 @@ The Medium size schools saw a reduction across all the statistics when the THS 9
 The charter schools saw a decrease in the overall passing % after removal of the THS results
 #### Scores by school type (original)
 ![Type_summary](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Type_summary.png)
-#### School size summary (with THS 9th math and reading grades omitted)
+#### Scores by school type (with THS 9th math and reading grades omitted)
 ![Type_summary_THS_9th_omitted](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/Type_summary_THS_9th_omitted.png)
 ## Summary
 There were a number of changes that were made to the overall analysis after removal of the reading and math scores for the ninth grade at Thomas High School. I have highlighted the changes below.
