@@ -79,4 +79,4 @@ This code was used to remove the scores for Thomas High School 9th grade student
 thomas_9th_count_df = school_data_complete_df.loc[(school_data_complete_df["school_name"] == "Thomas High School") & (school_data_complete_df["grade"] == "9th")].count()["Student ID"] 
 ```
 This is a visualization of the result for a sample of 10 THS students
-![NaN sample](https://github.com/luke-c-newell/election_analysis/blob/main/Resources/NaN_sample.png)
+![NaN sample](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/NaN_sample.png)
