@@ -17,6 +17,16 @@ In addition, the school board has notified us that the student data file shows e
 - The schools in spending range $630-644 saw a decrease in the overall passing % when the THS 9th grade results were removed
 - The Medium size schools saw a reduction across all the statistics when the THS 9th grade results were taken out of the analysis
 - The charter schools saw a decrease in the overall passing % after removal of the THS results
+### Metrics
+A summary of the changes for Thomas High School after the 9th grade results were removed:
+- Total School Budget was unchanged
+- Per Student Budget was unchanged
+- Average Math Score decreased
+- Average Reading Score increased
+- % Passing Math decreased
+- % Passing Reading decreased
+- % Passing Overall decreased
+
 ### How is the district summary affected?
 At the total district level, the headline results were not affected by the removal of the Thomas High School (THS) 9th grade results
 #### District summary (original)
@@ -63,3 +73,6 @@ There were a number of changes that were made to the overall analysis after remo
 2. The schools in spending range $630-644 saw a decrease in the overall passing % when the THS 9th grade results were removed
 3. The Medium size schools saw a reduction across all the statistics when the THS 9th grade results were taken out of the analysis
 4. The charter schools saw a decrease in the overall passing % after removal of the THS results
+## Code sample
+```thomas_9th_count_df = school_data_complete_df.loc[(school_data_complete_df["school_name"] == "Thomas High School") & (school_data_complete_df["grade"] == "9th")].count()["Student ID"]
+```
