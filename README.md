@@ -10,6 +10,16 @@ Working alongside the chief Data Scientist from a local school district, I have 
 
 In addition, the school board has notified us that the student data file shows evidence of academic dishonesty; specifically, the reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to us for help. In order to ensure academic rigour, I will replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. I also will then repeat the school district analysis and describe how these changes have affected the overall analysis.
 ## Results
+### Code sample and reading/math score removal
+This code was used to remove the scores for Thomas High School 9th grade students and replace them with NaN values.
+```
+thomas_9th_count_df = school_data_complete_df.loc[(school_data_complete_df["school_name"] == "Thomas High School") & (school_data_complete_df["grade"] == "9th")].count()["Student ID"] 
+```
+This is a visualization of the result for a sample of 10 THS students. Note the NaN values for students in the 9th grade!
+
+![NaN sample](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/NaN_sample.png)
+
+### Headline results
 - At the total district level, the headline results were not affected by the removal of the Thomas High School (THS) 9th grade results
 - For the school summary, THS saw a decrease in the % overall passing score but remained as the #2 school in the district
 - Replacing the THS math and reading scores for the 9th grade did not affect the relative performance compared to other schools in the district
@@ -75,11 +85,3 @@ There were a number of changes that were made to the overall analysis after remo
 2. The schools in spending range $630-644 saw a decrease in the overall passing % when the THS 9th grade results were removed
 3. The Medium size schools saw a reduction across all the statistics when the THS 9th grade results were taken out of the analysis
 4. The charter schools saw a decrease in the overall passing % after removal of the THS results
-## Code sample and reading/math score removal
-This code was used to remove the scores for Thomas High School 9th grade students and replace them with NaN values.
-```
-thomas_9th_count_df = school_data_complete_df.loc[(school_data_complete_df["school_name"] == "Thomas High School") & (school_data_complete_df["grade"] == "9th")].count()["Student ID"] 
-```
-This is a visualization of the result for a sample of 10 THS students. Note the NaN values for students in the 9th grade!
-
-![NaN sample](https://github.com/luke-c-newell/School_District_Analysis/blob/main/Resources/NaN_sample.png)
